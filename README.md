@@ -29,6 +29,9 @@
   <img src="screenshots/picker.png" width="720" alt="The GIF picker open above a comment box, showing search results for &quot;cat&quot;, one of them starred as a favorite">
 </p>
 
+> [!NOTE]
+> **Dayspace07's fork (0.1.9).** Same extension, one change from [PR #112](https://github.com/rayytor/desktop_gifs/pull/112) by dyj02056: after YouTube has refused a G-rated GIF on every retry, later GIFs get one try each (about a second, not half a minute) and the picker says why. The first GIF that goes through switches the retries back on. This does **not** get a GIF past YouTube's block (#93): that refusal is on YouTube's server and no client-side workaround has held up.
+
 > [!WARNING]
 > **Posting GIFs is broken right now.** Since 14 October 2026 YouTube refuses GIF comments sent from desktop. For most people every try fails, whether it has text or not, and whether it is a comment or a reply. The cause is on YouTube's side. Reinstalling, updating or picking another GIF will not fix it. Searching and the picker still work.
 >
